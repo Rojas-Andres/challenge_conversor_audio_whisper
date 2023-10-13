@@ -64,3 +64,6 @@ Para contribuir al proyecto, crea un fork, realiza tus cambios y envía una soli
 
 Licencia
 MIT
+
+
+docker build -t django_image -f develop.Dockerfile .
