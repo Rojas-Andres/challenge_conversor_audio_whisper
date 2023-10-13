@@ -1,4 +1,4 @@
-FROM python:3.9-slim-buster
+FROM public.ecr.aws/s6b0k4a1/python_docker_39
 
 ENV PYTHONUNBUFFERED 1
 

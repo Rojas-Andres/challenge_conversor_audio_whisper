@@ -67,3 +67,10 @@ MIT
 
 
 docker build -t django_image -f develop.Dockerfile .
+
+## ECR preconfigure database
+
+` docker build -t nombre_imagen . `
+` docker build -t django -f preconfigure.Dockerfile . `
+` docker tag django:latest public.ecr.aws/s6b0k4a1/python_docker_39 `
+` docker push public.ecr.aws/s6b0k4a1/python_docker_39  `
